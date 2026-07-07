@@ -804,9 +804,11 @@
             aria-label="Progress Stepper Indicator"
           ></div>
 
-          <button id="nextbtn" class="btn-primary" onclick="mn()">
+          <button id="nextbtn" class="btn-primary" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); mn();">
             Next step &rsaquo;
           </button>
+
+          
         </footer>
       </div>
     </main>
