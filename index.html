@@ -1391,7 +1391,7 @@
             stepSlider("geo", "Geopolitical Stress", "mgeo") +
             '<div id="m4" style="background:var(--color-bg-card); border:1px solid var(--color-border-light); border-radius:8px; padding:12px; box-shadow:0 4px 12px rgba(0,0,0,0.02);">' +
             stressMatrix(0) +
-            '</div><div id="st4">' +
+          '</div><p style="margin: 14px 0 2px; font-size: 13px; color: #8595a8;">(1) Risk view — Distribution of the risk combining probability and severity</p><div id="st4">' +
             stats3(
               STRESS_STATS[0].freq,
               STRESS_STATS[0].el,
@@ -1405,7 +1405,7 @@
             toggleSwitch("res", "mres") +
             '<div id="m5" style="background:var(--color-bg-card); border:1px solid var(--color-border-light); border-radius:8px; padding:12px; box-shadow:0 4px 12px rgba(0,0,0,0.02);">' +
             resilMatrix(0) +
-            '</div><div id="st5">' +
+            '</div><p style="margin: 14px 0 2px; font-size: 13px; color:#8595a8;">(1) Impact view — Distribution of the cost of an attack given it happened</p><div id="st5">' +
             stats(RESIL_STATS[0].el, RESIL_STATS[0].ex, "#f0a020") +
             "</div>"
           );
